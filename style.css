@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: Ostrovsky;
+    src: url(Ostrovsky.otf);
+}
+
+header {
+    overflow: hidden;
+}
+
+
+.main {
+    margin: 0px; padding: 0px;
+    width: 100vw; height: 100vh;
+    background: linear-gradient(180deg, rgba(22,21,17,1) 80%, rgba(52,69,126,1) 90%, rgba(255,247,250,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    background: linear-gradient(0deg, rgba(176,192,246,1) 0%, rgba(160,178,238,1) 40%, rgba(255,247,250,1) 100%);
+    font-family: Ostrovsky;
+    font-size: 8vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.timerBlock {
+    padding-left: 10hw; padding-right: 10hw;
+}
